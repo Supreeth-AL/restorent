@@ -1,0 +1,349 @@
+.hero {
+  min-height: 80vh;
+  padding: 80px 8%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 60px;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 64px;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+
+.hero-description {
+  max-width: 550px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  padding: 14px 28px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image-placeholder {
+  width: 100%;
+  max-width: 500px;
+  height: 450px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 20px;
+  background-color: #eeeeee;
+
+  font-size: 20px;
+}
+
+
+.home {
+  width: 100%;
+}
+
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
+  min-height: 80vh;
+  padding: 80px 8%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 60px;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-subtitle,
+.section-subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero-subtitle {
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 64px;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+
+.hero-description {
+  max-width: 550px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  padding: 14px 28px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image-placeholder {
+  width: 100%;
+  max-width: 500px;
+  height: 450px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 20px;
+  background-color: #eeeeee;
+
+  font-size: 20px;
+}
+
+
+/* =========================
+   ABOUT SECTION
+========================= */
+
+.about {
+  padding: 80px 8%;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 42px;
+  margin: 15px 0 20px;
+}
+
+.about-description {
+  line-height: 1.7;
+}
+
+.about-features {
+  max-width: 1100px;
+  margin: 50px auto 0;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.feature-card {
+  padding: 35px 25px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.feature-icon {
+  width: 50px;
+  height: 50px;
+
+  margin: 0 auto 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.feature-card h3 {
+  margin-bottom: 12px;
+}
+
+.feature-card p {
+  line-height: 1.6;
+}
+
+
+/* =========================
+   CATEGORIES SECTION
+========================= */
+
+.categories {
+  padding: 80px 8%;
+  text-align: center;
+}
+
+.categories h2 {
+  font-size: 42px;
+  margin: 15px 0 20px;
+}
+
+.category-container {
+  max-width: 1100px;
+  margin: 40px auto 0;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.category-card {
+  padding: 40px 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+
+.category-card h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.category-card p {
+  line-height: 1.5;
+}
+
+.category-image {
+  width: 80px;
+  height: 80px;
+
+  margin: 0 auto 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #eeeeee;
+  border-radius: 10px;
+
+  font-size: 12px;
+}
+
+
+/* =========================
+   POPULAR FOOD SECTION
+========================= */
+
+.popular-food {
+  padding: 80px 8%;
+  text-align: center;
+}
+
+.popular-food h2 {
+  font-size: 42px;
+  margin: 15px 0 20px;
+}
+
+.food-container {
+  max-width: 1100px;
+  margin: 40px auto 0;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.food-card {
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.food-image {
+  height: 220px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 20px;
+
+  background-color: #eeeeee;
+  border-radius: 10px;
+}
+
+.food-card h3 {
+  margin-bottom: 10px;
+}
+
+.food-card p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.food-card span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.food-card button {
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* =========================
+   CALL TO ACTION
+========================= */
+/* =========================
+   CALL TO ACTION
+========================= */
+
+.cta {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 40px;
+  margin: 15px 0;
+}
+
+.cta p {
+  margin-bottom: 25px;
+}
+
+.cta button {
+  padding: 14px 28px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}

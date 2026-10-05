@@ -1,0 +1,79 @@
+/* =========================
+   MENU PAGE
+========================= */
+
+.menu {
+  width: 100%;
+}
+
+
+/* =========================
+   MENU HEADER
+========================= */
+
+.menu-header {
+  padding: 80px 8%;
+  text-align: center;
+}
+
+.menu-header h1 {
+  font-size: 52px;
+  margin: 15px 0 20px;
+}
+
+.menu-header p:last-child {
+  line-height: 1.6;
+}
+
+
+/* =========================
+   CATEGORY FILTER
+========================= */
+
+.menu-categories {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 8% 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.category-filter {
+  padding: 12px 20px;
+
+  border: 1px solid #dddddd;
+  background-color: white;
+
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.category-filter:hover {
+  background-color: #eeeeee;
+}
+
+.category-filter.active {
+  background-color: #222222;
+  color: white;
+}
+
+
+/* =========================
+   FOOD SECTION
+========================= */
+
+.menu-food {
+  padding: 0 8% 80px;
+}
+
+.menu-food-container {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
